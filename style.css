@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 body{
-
-   background: linear-gradient(blue, orange, red );
-}
-
-li{
+    background: linear-gradient(lightblue, dodgerblue);
+    padding-bottom: 30%;
     font-family: ;
 }
+

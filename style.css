@@ -1,6 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 body{
     background: linear-gradient(rgb(255, 0, 0), rgb(253, 228, 0));
     padding-bottom: 30%;
     font-family: ;
 }
 
+h2{
+
+    font-size: 25px; 
+    font-family: Protest Revolution;
+    
+    }
+    h3{
+    
+        font-size: 25px;
+        font-family: Protest Revolution ;
+    }
+    h4{
+    
+        font-size: 25px;
+        font-family: Protest Revolution;
+    }

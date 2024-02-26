@@ -1,3 +1,14 @@
 h1{
     color: greenyellow;
 }
+:root{
+--cor-de-fundo: #0000ff;
+--verde: green; ]
+--branco: #FFFFFF;
+--botao-ativo:
+
+}
+body{
+background-color: var(--cor-de-fundo);
+color: var(--branco);
+}

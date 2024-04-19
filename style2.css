@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+h1 {
+    color: rgb(255, 255, 255);
+}
 
 :root {
     --cor-de-fundo: #1E1E1E;
@@ -12,7 +14,7 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-
+   
 }
 
 .conteudo-principal {
@@ -36,7 +38,7 @@ body {
     color: var(--verde);
 }
 
-.botao {
+.botao{
     font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
@@ -46,22 +48,35 @@ body {
     font-size: 18px;
     align-items: center;
     width: 100%;
-
+   
     border-bottom: 4px solid var(--botao-ativo);
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
 }
 
-.botoes {
+.botoes{
     display: block;
 }
 
-.botao.ativo {
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
+.abas-textos{
+    background-color: var(--texto-fundo);
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo.ativo{
+    display:block;
+}
+
+.aba-conteudo{
+    display: none;
+}
 
 @media screen and (min-width: 768px) {
     .botoes {
@@ -73,41 +88,16 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
+    @media screen and (min-width: 768px) {
+        .botoes {
+            display: flex;
+        }
+
+        .botao:first-child {
+            border-radius: 40px 0 0 0;
+        }
+
+        .botao:last-child {
+            border-radius: 0 40px 0 0;
+        }
     }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
-}
-
-.abas-textos {
-    background-color: var(--texto-fundo);
-    padding: 40px;
-    border-radius: 0 0 40px 40px;
-}
-
-.aba-conteudo.ativo {
-    display: block;
-}
-
-.aba-conteudo {
-    display: none;
-}
-
-.aba-conteudo-titulo-principal{
-    font-size: 30px;
-    text-align: center;
-}
-
-.aba-conteudo-titulo-secundario{
-    text-align: center;
-    color: var(--verde);
-    text-transform: uppercase;
-}
